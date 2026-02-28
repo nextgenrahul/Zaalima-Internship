@@ -1,5 +1,7 @@
 import Footer from "../components/layout/Footer"
 import Navbar from "../components/layout/Navbar"
+import ATSInfoSection from "../components/sections/ATSInfoSection"
+import FeaturesSection from "../components/sections/FeaturesSection"
 import Hero from "../components/sections/Hero"
 import ResultsPreview from "../components/sections/ResultsPreview"
 import UploadSection from "../components/sections/UploadSection"
@@ -12,6 +14,8 @@ const Home = () => {
       <Hero />
       <UploadSection />
       <ResultsPreview />
+      <FeaturesSection />
+      <ATSInfoSection />
     </main>
     <Footer />
     
