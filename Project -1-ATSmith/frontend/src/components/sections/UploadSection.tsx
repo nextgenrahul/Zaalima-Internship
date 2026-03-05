@@ -8,7 +8,6 @@ function UploadSection() {
     <section className="border border-black mt-16">
       <div className="max-w-7xl mx-auto px-4 py-16">
 
-        {/* Section Title */}
         <div className="border border-black p-4 mb-10 text-center">
           <h2 className="text-2xl md:text-3xl font-bold">
             Analyze Your Resume
@@ -18,10 +17,8 @@ function UploadSection() {
           </p>
         </div>
 
-        {/* Main Upload Grid */}
         <div className="border border-black grid grid-cols-1 lg:grid-cols-2 gap-10 p-6">
 
-          {/* Resume Upload Box */}
           <div className="border border-black p-6 space-y-6">
 
             <h3 className="border border-black p-3 font-semibold">
@@ -47,7 +44,6 @@ function UploadSection() {
 
           </div>
 
-          {/* Job Description Box */}
           <div className="border border-black p-6 space-y-6">
 
             <h3 className="border border-black p-3 font-semibold">
@@ -66,7 +62,6 @@ function UploadSection() {
 
         </div>
 
-        {/* Analyze Button Section */}
         <div className="border border-black mt-10 p-6 text-center">
           <button className="border border-black px-8 py-3 font-semibold">
             Analyze Resume
